@@ -1,0 +1,60 @@
+baseURL = "https://www.lruchandani.com/"
+languageCode = "en-us"
+#title = "My learning and findings"
+theme = "soho"
+
+[params]
+title = "Soho Theme"
+#description = "Example Blog"
+gravatar = "lalit.ruchandani@gmail.com"
+images = ["images/profile.png"]
+copyright = "Lalit Ruchandani"
+#license = "CC BY-SA 4.0"
+#licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+builtWith = true
+mainSections = ["posts"]
+
+## Set custom theme color.
+# themeColor = "#fc2803"
+
+  [[params.socialIcons]]
+  icon = "fa-linkedin"
+  title = "Linkedin"
+  url = "https://www.linkedin.com/in/lruchandani"
+
+  [[params.socialIcons]]
+  icon = "fa-github"
+  title = "GitHub"
+  url = "https://github.com/lruchandani"
+
+  [[params.socialIcons]]
+  icon = "fa-twitter"
+  title = "Twitter"
+  url = "https://github.com/lruchandani"
+
+[taxonomies]
+  series = "series"
+  category = "categories"
+  tag = "tags"
+
+[menu]
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 100
+  identifier = "posts"
+  url = "/posts/"
+
+
+[markup]
+
+  [markup.highlight]
+  codeFences = true
+  guessSyntax = false
+  hl_Lines = ""
+  lineNoStart = 1
+  lineNos = false
+  lineNumbersInTable = true
+  noClasses = true
+  style = "monokai"
+  tabWidth = 4
