@@ -17,6 +17,8 @@ mainSections = ["posts","cheatsheets"]
 ## Set custom theme color.
 # themeColor = "#fc2803"
 
+customCss = ["css/custom.css"]
+
   [[params.socialIcons]]
   icon = "fa-linkedin"
   title = "Linkedin"

@@ -20,7 +20,7 @@ To install Visual Studio Code, follow [these](https://code.visualstudio.com/docs
 ## Install Go (on Mac)
 There are multiple ways to install golang
 ### 1) Tarball  
-[Download](https://golang.org/dl/) archive and extract it lat location  `usr/local/go`. 
+[Download](https://golang.org/dl/) archive and extract it at location  `usr/local/go`. 
 Detailed steps are provided [here](https://golang.org/doc/install#tarball) 
 ### 2) Installer  
 This option entails downloading a .pkg installer for macos and following the GUI installation wizard to install go.
