@@ -12,7 +12,7 @@ categories : [
 ]
 series : ["environment"]
 ---
-This article helps to get started with golang using vscode.The  go extension for vscode provides many useful features such as, auto-completion, debugging and  in-context help etc, which aids in developer productivity. 
+This article helps to get started with golang using vscode.The [Go extension](https://code.visualstudio.com/docs/languages/go) for vscode provides many useful features such as, auto-completion, debugging,in-context help etc that makes it one of the most powerful ide's for golang. 
 
 ## Install Visual Studio Code (on Mac)
 To install Visual Studio Code, follow [these](https://code.visualstudio.com/docs/setup/mac) steps  
@@ -49,8 +49,7 @@ Starting with golang version `1.13` **[Go Module](https://blog.golang.org/using-
 ![alt text](/images/go-tools.png)
 
 #### 1) Create Module
-To compile and run go hello world, we must first create a module with a module-path. 
-Module path is the prefix for all packages of the module.Module-path usually are in-accordance with its module's actual physically addressable location on the web when published (such as github). It can take the form like  *github.com/<user-name>/<module-name>*  for ex. `github.com/lruchandani/hello`.
+To compile and run go hello world, we must first create a module with a `module path`. Module path is the prefix for all packages of the module. Module-path is  in-accordance with  module's actual physically addressable location on the web (ex.github). It can take the form like  *github.com/user-name/module-name*  for ex. `github.com/lruchandani/hello`.
 
 Following are the steps to create a module
 
@@ -59,7 +58,7 @@ mkdir hello-world
 cd hello-world
 go mod init github.com/lruchandani/hello-world
 ```
-This would create a file go.mod inside `hello-world` directory and command `cat go.mod`  would yeild.
+This would create a file go.mod inside `hello-world` directory. The file looks like below 
 ```
 module github.com/lruchandani/hello
 
@@ -78,10 +77,10 @@ func main() {
 	fmt.Println("Hello, world.")
 }
 ```
-#### 3) Open VsCode at module location
+#### 3) Open VsCode at module directory
 * Open terminal
 * Ensure that you are in `hello-world` directory
-* type `code .`  - open current directory (i.e. `hello-world`) in vscode.
+* type `code .` . This is a shortcut to open current directory in vscode
 * you will get the prompts to install go extension if not already installed.
 * Opt to use the language server and set essential settings in vscode to enable intellisense
 ```
