@@ -2,6 +2,7 @@ baseURL = "https://www.lruchandani.com/"
 languageCode = "en-us"
 #title = "My learning and findings"
 theme = "soho"
+DisqusShortname = "lruchandani"
 
 [params]
 title = "Soho Theme"
@@ -13,6 +14,7 @@ copyright = "Lalit Ruchandani"
 #licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
 builtWith = true
 mainSections = ["posts","cheatsheets"]
+DisableComments = false
 
 ## Set custom theme color.
 # themeColor = "#fc2803"
